@@ -1,0 +1,15 @@
+export const APIS = {
+  LOGIN: "/user/web/login",
+  OTP: "/user/verify",
+  SUBSCRIPTIONS: "/user/subscriptions",
+  SUBSCRIBE: "/user/subscribe",
+  PENDING_SUBSCRIPTION: "/user/pending_sub",
+  PENDING_ACTIVE_SUBSCRIPTION: "/user/pending_active_sub",
+  RESEND_INVOICE: "/user/resend_invoice",
+  CANCEL_PENDING_SUBSCRIPTION: "/user/cancel_subscription",
+  PROFILE: "/user/profile",
+  PRICING: "/user/pricing",
+  PAYMENT_REFERENCE: "/admin/get_payment_reference",
+  CAPTURE_PAYMENT: "/admin/capture",
+  ACTIVATE: "/user/activate",
+};
