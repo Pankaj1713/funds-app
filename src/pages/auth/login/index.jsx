@@ -14,6 +14,7 @@ import { toast } from "react-toastify";
 import store from "../../../store";
 import { STRINGS } from "../../../components/strings";
 import { FiEye, FiEyeOff } from "react-icons/fi";
+
 // Validation Schema for Login Form
 const validationSchema = Yup.object({
   email: Yup.string()
@@ -36,7 +37,7 @@ const VALIDATION_SCHEMA = Yup.object().shape({
     .length(4, "OTP must be 4 digits")
     .required("OTP is required"),
 });
-
+// Initial values for the OTP form
 const INITIAL_OTP_VALUES = { otp: "" };
 
 const Login = () => {
